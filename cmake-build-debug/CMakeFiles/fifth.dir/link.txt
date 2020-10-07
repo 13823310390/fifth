@@ -1,0 +1,3 @@
+"D:\yanshi\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\fifth.dir/objects.a
+D:\yanshi\ming\MinGW\bin\ar.exe cr CMakeFiles\fifth.dir/objects.a @CMakeFiles\fifth.dir\objects1.rsp
+D:\yanshi\ming\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\fifth.dir/objects.a -Wl,--no-whole-archive  -o fifth.exe -Wl,--out-implib,libfifth.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\fifth.dir\linklibs.rsp
